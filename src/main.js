@@ -8,5 +8,5 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  render: h => h(App)
-}).$mount('#app')
+  render: h => h(App) //渲染首页
+}).$mount('#app')     //挂载
