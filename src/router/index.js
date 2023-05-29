@@ -24,7 +24,16 @@ const routes = [
     name:'login',
     component:()=> import('../views/Login.vue')
   },
-  
+  {
+    path: '/movie-detail',
+    name: 'movie-detail',
+    component: () => import('../views/movie-detail.vue'),
+  },
+  {
+    path: '/movie-list',
+    name: 'movie-list',
+    component: () => import('../views/movie-list.vue'),
+  },
 ]
 
 const router = new VueRouter({
